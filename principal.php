@@ -31,8 +31,8 @@ include_once('conexao.php');
             
             <th>ID</th>
             <th>NOME</th>
-            <th>MATRICULA</th>
             <th>CURSO</th>
+            <th>MATRICULA</th>
             <th>EDITAR</th>
             <th>EXCLUIR</th>
           </tr>

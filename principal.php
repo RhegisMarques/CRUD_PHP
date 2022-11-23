@@ -29,7 +29,7 @@ include_once('conexao.php');
         <thead>
           <tr bgcolor="#DCDCDC">
             
-            
+            <th>ID</th>
             <th>NOME</th>
             <th>MATRICULA</th>
             <th>CURSO</th>
@@ -49,7 +49,7 @@ include_once('conexao.php');
             ?>
 
             <tr>
-            
+            <td> <?= $dados[0] ?> </td>
             <td> <?= $dados[1] ?> </td>
             <td> <?= $dados[2] ?> </td>
             <td> <?= $dados[3] ?> </td>
@@ -65,6 +65,7 @@ include_once('conexao.php');
 
         </tbody>
       </table>
+      <br><br>
       
    <hr>
     <footer>
